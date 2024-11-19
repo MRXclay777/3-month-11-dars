@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding-top: 25px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HEADER-LEFT{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+}
+.header-list{
+display: flex;
+align-items: center;
+gap: 40px;
+list-style: none;
+}
+.header-link{
+    color: #ffffff;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header-link:hover{
+    text-shadow: 5px 5px 5px white;
+
+}
+
+
+.header-right{
+    width: 300px;
+    background-color: #ffffff;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.hero{
+    padding: 30px 0px;
+    background-image: url("./images/slider2\ 1.png");
+}
+.hero-textbox{
+    width: 277px;
+}
+.hero-title{
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+}
+.hero-btn{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+background: rgb(118, 185, 0);
+width: 109px;
+height: 55px;
+border: none;
+text-align: center;
+align-items: center;
+margin-top: 88px;
+transition: 0.5s ease-in-out;
+}
+.hero-btn:hover{
+    box-shadow: 5px 5px 5px 5px white;
+    text-shadow: 5px 5px 5px black;
+}
+.hero2-bigbox{
+    margin-top: 40px;
+    gap: 40px;
+    display: flex;
+}
+.hero2-title{
+    margin-top: 41px;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero2-titles{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+    height: 120px;
+    width: 290px;
+}
+.hero2-tittle{
+    width: 178px;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 auto;
+padding-top: 20px;
+}
+.hero2-smalltitle{
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 37px;
+padding-bottom: 20px;
+}
+.hero3{
+    margin-top: 40px;
+}
+.hero3-title{
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero4{
+    margin-top: 40px;
+}
+.hero4-title{
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero5{
+    margin-top: 40px;
+}
+.hero5-bigbox{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 351px;
+    display: flex;
+}
+.hero5-img{
+    margin-left: 12px;
+}
+.hero5-bigtext{
+    margin-left: 40px;
+}
+.hero5-tittle{
+    width: 416px;
+    color: rgb(103, 185, 0);
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+}
+.hero5-text{
+    width: 399px;
+    padding-top: 28px;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
+.hero5-btn{
+    width: 233px;
+    height: 62px;
+    border: none;
+    margin-top: 58px;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+background: #76b900;
+transition: 0.5s ease-in-out;
+}
+.hero5-btn:hover{
+    box-shadow: black 5px 5px 5px 5px;
+    text-shadow: black 5px 5px 5px;
+}
+.footer-bigbox{
+    background-color: #ffffff;
+    width: 1276px;
+    height: 211px;  
+    padding-top: 100px;  
+    display: flex;
+}
+.footer-logo{
+    margin-left: 25px;
+}
+.footer-text{
+    color: rgb(102, 102, 102);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0%;
+margin-left: 951px;
+       
+}
